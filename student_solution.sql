@@ -1,5 +1,3 @@
-USE CollegeDB;
-
 ALTER TABLE Student
 ADD COLUMN Email VARCHAR(100);
 

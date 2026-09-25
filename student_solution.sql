@@ -1,1 +1,7 @@
+USE CollegeDB;
 
+ALTER TABLE Student
+ADD COLUMN Email VARCHAR(100);
+
+ALTER TABLE Student
+ADD COLUMN PhoneNumber BIGINT;
